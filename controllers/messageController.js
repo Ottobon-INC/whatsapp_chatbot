@@ -4,8 +4,8 @@ const { sendMessage, uploadExternalImageAsMedia, normalisePreviewLink } = requir
 // ==========================================
 // CONFIGURATION & CONSTANTS
 // ==========================================
-const SUPPORT_API_URL = process.env.SAKHI_API_URL || "http://72.61.228.9:8000/sakhi/chat";
-const SUPPORT_API_TIMEOUT_MS = Number(process.env.SAKHI_API_TIMEOUT_MS || 20000);
+const SUPPORT_API_URL = process.env.SAKHI_API_URL;
+const SUPPORT_API_TIMEOUT_MS = Number(process.env.SAKHI_API_TIMEOUT_MS);
 
 const MAX_BODY_API_LIMIT = 1024;
 const PREVIEW_CHAR_LIMIT = 250;
